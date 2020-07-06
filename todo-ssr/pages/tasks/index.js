@@ -12,6 +12,7 @@ export default function Tasks({tasks}) {
                                     singleTask.title
                                 }
                             </a>
+
                         </Link>
                     </li>
                 )

@@ -7,13 +7,13 @@ export default function App({ Component, pageProps }) {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 pl-0 pr-0">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                             <Link href="/">
-                                <a class="navbar-brand text-light">Server Side Rendering</a>
+                                <a className="navbar-brand text-light">Server Side Rendering</a>
                             </Link>
 
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
+                            <ul className="navbar-nav mr-auto">
+                                <li className="nav-item">
                                     <Link href="/tasks">
                                         <a className="nav-link text-light">
                                             Todo list
