@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
                                     <Link href="/tasks">
-                                        <a class="nav-link text-light">
+                                        <a className="nav-link text-light">
                                             Todo list
                                         </a>
                                     </Link>

@@ -13,11 +13,11 @@ export default function TodoList() {
     }, [])
 
     return (
-        <ul>
+        <ul className="list-group">
             {
                 todos.map(singleTask => (
-                    <li key={singleTask.id}>
-                        <Link to={`/tasks/${singleTask.id}`}>
+                    <li className="list-group-item list-group-item-action p-0" key={singleTask.id}>
+                        <Link className="d-block p-3 text-left" to={`/tasks/${singleTask.id}`}>
                             {
                                 singleTask.title
                             }
