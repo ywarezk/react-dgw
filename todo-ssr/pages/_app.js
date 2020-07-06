@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
                     </div>
                 </div>
 
-                <div className="row justify-content-center">
+                <div className="row justify-content-center mt-5">
                     <div className="col-3">
                         <Component {...pageProps} />
                     </div>
