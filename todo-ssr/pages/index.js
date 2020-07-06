@@ -1,16 +1,9 @@
 
 export default function Home() {
   return (
-    <div className="container">
-      <nav>
-        <ul>
-          <li>
-            
-          </li>
-        </ul>
-      </nav>
-      <h1>hello next</h1>
-    </div>
+    <h4>
+      Server Side Rendering Demo
+    </h4>
   )
 }
 

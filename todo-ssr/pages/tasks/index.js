@@ -1,14 +1,13 @@
-import React from 'react';
 import Link from 'next/link';
 
 export default function Tasks({tasks}) {
     return (
-        <ul>
+        <ul className="list-group">
             {
                 tasks.map(singleTask => 
-                    <li key={singleTask.id}>
+                    <li className="list-group-item list-group-item-action p-0" key={singleTask.id}>
                         <Link href="/tasks/[id]" as={`/tasks/${singleTask.id}`}>
-                            <a>
+                            <a className="d-block p-3">
                                 {
                                     singleTask.title
                                 }
