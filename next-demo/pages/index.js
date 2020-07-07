@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/layout/Header/Header'
 import Footer from '../components/layout/Footer/Footer'
 import { useEffect } from 'react'
+import Link from 'next/link';
 
 export default function Home() {
   useEffect(() => {
@@ -10,15 +11,16 @@ export default function Home() {
 
   return (
     <div className="container">
-      <Header />
-
+      <Link href="/tasks">
+        <a>
+          Tasks
+        </a>
+      </Link>
       <h1>
         Hello world
       </h1>
 
       <img src="/img/vercel.svg" />
-
-      <Footer />
     </div>
   )
 }
